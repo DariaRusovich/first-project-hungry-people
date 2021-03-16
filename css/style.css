@@ -439,11 +439,9 @@ button {
 .burger-menu {
   display: none;
   justify-content: space-between;
-  align-items: flex-start;
 }
 .burger-btn {
   font-size: 20px;
-  margin-top: 40px;
 }
 .burger-btn i {
   padding: 20px;
@@ -1222,6 +1220,16 @@ textarea {
   .container {
     padding: 10px 0;
   }
+  .logo > img {
+    width: 50px;
+    height: 50px;
+}
+.hero-main-title > span {
+  font-size: 28px;
+}
+.hero-main-title > span {
+  margin-top: 15px;
+}
 }
 /* // XX-Small devices (iPhone5/SE, equals to 320px) */
 @media (max-width: 320px) {
