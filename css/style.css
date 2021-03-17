@@ -1058,7 +1058,7 @@ textarea {
     width: 350px;
   }
   .book-form > .title-secondary {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .title-section {
     font-size: 12px;
@@ -1142,7 +1142,7 @@ textarea {
     display: flex;
   }
   .hero {
-    padding: 200px 0 85px 0;
+    padding: 250px 0 85px 0;
   }
   .hero-main-title > span {
     font-size: 38px;
@@ -1176,7 +1176,7 @@ textarea {
   }
   .title-text,
   .text {
-    --distance: 15px;
+    --distance: 30px;
   }
   .main {
     flex-direction: column;
@@ -1198,7 +1198,7 @@ textarea {
     width: 330px;
   }
   .menu-list {
-    width: 50%;
+    width: 100%;
   }
   .contact-title {
     left: initial;
@@ -1287,6 +1287,7 @@ input, textarea {
     font-size: 11px;
     line-height: 0.1;
     bottom: 40px;
+    width: 300px;
   }
   .contact-form {
     margin-top: 20px;
@@ -1306,7 +1307,7 @@ input, textarea {
     order: -1;
   }
   .map {
-    height: 250px;
+    height: 300px;
     margin-top: -30px;
   }
 }
