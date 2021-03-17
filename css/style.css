@@ -675,7 +675,7 @@ button {
 /*===========BOOK-FORM SECTION STYLES START============*/
 
 .book-form {
-  width: 500px;
+  width: 50%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -979,12 +979,13 @@ textarea {
   .hero-main-title > span {
     font-size: 76px;
   }
+  .content {
+    width: 50%;
+  }
   .article-img {
     --size: 90px;
   }
-  .content {
-    width: 100%;
-  }
+
   .title-secondary {
     font-size: 32px;
   }
@@ -992,9 +993,6 @@ textarea {
   .title-text,
   .text {
     --distance: 30px;
-  }
-  .book-form {
-    width: 450px;
   }
   .menu-list {
     width: 750px;
@@ -1088,9 +1086,6 @@ textarea {
     font-size: 14px;
     line-height: 1.6;
   }
-  .book-form {
-    width: 370px;
-  }
   .book-form input {
     padding: 15px;
   }
@@ -1182,6 +1177,9 @@ textarea {
   }
   .section {
     padding: 50px 0;
+  }
+  .content {
+    width: 100%;
   }
   .title-text,
   .text {
