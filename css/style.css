@@ -1008,9 +1008,7 @@ textarea {
   .our-contacts li {
     margin: 10px 0;
   }
-  .our-contacts:first-child {
-    margin-top: 20px;
-  }
+
   .our-contacts {
     font-size: 14px;
   }
@@ -1111,6 +1109,7 @@ textarea {
   .contact-title {
     font-size: 12px;
   }
+
   .map {
     height: 375px;
   }
@@ -1164,7 +1163,7 @@ textarea {
   .btn-secondary {
     margin-left: 20px;
   }
- 
+
   .section {
     padding: 50px 0;
   }
@@ -1204,6 +1203,7 @@ textarea {
   .book-form input {
     padding: 10px;
   }
+
   .map {
     height: 350px;
   }
@@ -1225,6 +1225,10 @@ textarea {
   }
   .social > li + li {
     margin: 0 0 0 10px;
+  }
+  .menu-section {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .menu-list {
@@ -1285,15 +1289,10 @@ textarea {
     width: 300px;
   }
 
-  .menu-section {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
   .title-section {
     width: 100%;
   }
-  
+
   .contact-form {
     margin-top: 20px;
   }
@@ -1306,6 +1305,9 @@ textarea {
   }
   .contacts {
     flex-wrap: wrap;
+  }
+  .our-contacts:first-child {
+    margin-top: 20px;
   }
   .btn-half {
     width: 100%;
