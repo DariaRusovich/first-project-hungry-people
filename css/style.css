@@ -855,7 +855,7 @@ textarea {
 .our-contacts {
   display: inline-flex;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
   color: rgba(51, 51, 51, 0.5);
   margin-top: 25px;
 }
@@ -1142,7 +1142,7 @@ textarea {
     display: flex;
   }
   .hero {
-    padding: 250px 0 85px 0;
+    padding: 260px 0 85px 0;
   }
   .hero-main-title > span {
     font-size: 38px;
