@@ -1245,6 +1245,12 @@ textarea {
   .book-form input {
     width: 49%;
   }
+  .contact-title {
+    font-size: 11px;
+    line-height: 0.1;
+    bottom: 40px;
+    width: 300px;
+  }
 }
 
 @media (max-width: 410px) {
@@ -1297,12 +1303,7 @@ textarea {
   .title-section {
     width: 100%;
   }
-  .contact-title {
-    font-size: 11px;
-    line-height: 0.1;
-    bottom: 40px;
-    width: 300px;
-  }
+  
   .contact-form {
     margin-top: 20px;
   }
