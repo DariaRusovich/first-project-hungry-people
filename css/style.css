@@ -1239,6 +1239,26 @@ textarea {
   .book-form input {
     width: 49%;
   }
+  .contact-form {
+    margin-top: 20px;
+  }
+  .contact-form input {
+    width: 100%;
+    padding: 10px;
+  }
+  .contact-form textarea {
+    height: 100px;
+  }
+  .contacts {
+    flex-wrap: wrap;
+  }
+  .our-contacts:first-child {
+    margin-top: 20px;
+  }
+  .btn-half {
+    width: 100%;
+    order: -1;
+  }
   .contact-title {
     font-size: 11px;
     line-height: 0.1;
@@ -1293,26 +1313,7 @@ textarea {
     width: 100%;
   }
 
-  .contact-form {
-    margin-top: 20px;
-  }
-  .contact-form input {
-    width: 100%;
-    padding: 10px;
-  }
-  .contact-form textarea {
-    height: 100px;
-  }
-  .contacts {
-    flex-wrap: wrap;
-  }
-  .our-contacts:first-child {
-    margin-top: 20px;
-  }
-  .btn-half {
-    width: 100%;
-    order: -1;
-  }
+ 
   .map {
     height: 300px;
     margin-top: -30px;
