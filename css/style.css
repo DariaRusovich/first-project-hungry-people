@@ -442,6 +442,11 @@ button {
 }
 .burger-btn {
   font-size: 20px;
+  transition: ease 0.5s;
+}
+.burger-btn:hover{
+  color: var(--color);
+  transition: ease 0.5s;
 }
 .burger-btn i {
   padding: 20px;
@@ -855,7 +860,7 @@ textarea {
 .our-contacts {
   display: inline-flex;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   color: rgba(51, 51, 51, 0.5);
   margin-top: 25px;
 }
@@ -955,6 +960,7 @@ textarea {
     width: 100px;
     height: 70px;
   }
+ 
   .our-contacts i {
     margin-right: 5px;
   }
@@ -977,7 +983,7 @@ textarea {
     --size: 90px;
   }
   .content {
-    width: 450px;
+    width: 100%;
   }
   .title-secondary {
     font-size: 32px;
@@ -1006,6 +1012,9 @@ textarea {
   }
   .our-contacts:first-child {
     margin-top: 20px;
+  }
+  .our-contacts {
+    font-size: 14px;
   }
   .our-contacts li + li {
     margin-left: 0;
@@ -1057,9 +1066,6 @@ textarea {
   .section {
     padding: 80px 0;
   }
-  .content {
-    width: 350px;
-  }
   .book-form > .title-secondary {
     margin-bottom: 20px;
   }
@@ -1083,7 +1089,7 @@ textarea {
     line-height: 1.6;
   }
   .book-form {
-    width: 350px;
+    width: 100%;
   }
   .book-form input {
     padding: 15px;
@@ -1151,10 +1157,10 @@ textarea {
     font-size: 38px;
   }
   .social a {
-    width: 40px;
-    height: 40px;
-    font-size: 15px;
-  }
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
   .btn {
     min-width: 150px;
     height: 45px;
@@ -1183,9 +1189,6 @@ textarea {
   }
   .main {
     flex-direction: column;
-  }
-  .content {
-    width: 350px;
   }
   .title-secondary {
     font-size: 24px;
@@ -1220,6 +1223,31 @@ textarea {
 
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .container{
+      padding: 0 10px;
+  }
+  .social {
+    right: 50%;
+    display: flex;
+    top: -50%;
+    transform: translateX(50%) translateY(50%);
+  }
+  .social > li + li {
+    margin: 0 0 0 10px;
+  }
+
+  .menu-list {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .book-form input {
+    width: 49%;
+}
+}
+
+
+@media (max-width: 410px) {
   .container {
     padding: 0 10px;
   }
@@ -1245,30 +1273,16 @@ textarea {
     margin-top: 30px;
   }
 
-  .content {
-    width: 300px;
-  }
   .article-img {
     --size: 50px;
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
   }
 
-  .social {
-    right: 50%;
-    display: flex;
-    top: -50%;
-    transform: translateX(50%) translateY(100%);
-  }
-  .social > li + li {
-    margin: 0 0 0 10px;
-  }
-  .book-form {
-    width: 250px;
-  }
+  
   .book-form input {
     width: 100%;
 }
-input, textarea {
+  input, textarea {
   margin-bottom: 10px;
 }
   .menu-text {
@@ -1279,10 +1293,7 @@ input, textarea {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .menu-list {
-    width: 100%;
-    justify-content: center;
-  }
+ 
   .title-section {
     width: 100%;
   }
