@@ -1072,11 +1072,11 @@ textarea {
     font-size: 28px;
   }
   .title-text {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
   }
   .text {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.6;
   }
   .book-form {
@@ -1189,7 +1189,7 @@ textarea {
   }
   .article-img {
     --size: 60px;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .title-section {
     transform: translateX(-50%) translateY(-200%);
@@ -1225,7 +1225,7 @@ textarea {
     height: 50px;
   }
   .hero-main-title > span {
-    font-size: 28px;
+    font-size: 30px;
   }
   .hero-main-title > span {
     margin-top: 15px;
@@ -1242,15 +1242,11 @@ textarea {
     margin-top: 30px;
   }
 
-  .section {
-    padding: 30px 0 50px 0;
-  }
-
   .content {
     width: 300px;
   }
   .article-img {
-    --size: 45px;
+    --size: 50px;
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
   }
 
@@ -1264,8 +1260,14 @@ textarea {
     margin: 0 0 0 10px;
   }
   .book-form {
-    width: 305px;
+    width: 250px;
   }
+  .book-form input {
+    width: 100%;
+}
+input, textarea {
+  margin-bottom: 10px;
+}
   .menu-text {
     width: 300px;
   }
@@ -1280,7 +1282,6 @@ textarea {
   }
   .title-section {
     width: 100%;
-    top: 40px;
   }
   .contact-title {
     font-size: 11px;
