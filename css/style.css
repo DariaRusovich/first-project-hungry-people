@@ -816,7 +816,7 @@ textarea {
 }
 .contact-title a {
   font-weight: 700;
-  padding: 10px 0;
+  padding: 10px 0 5px 0;
   transition: ease 0.5s;
 }
 .contact-title a:hover {
@@ -1166,7 +1166,7 @@ textarea {
   }
 
   .section {
-    padding: 50px 0;
+    padding: 50px 0 80px 0;
   }
   .content {
     width: 100%;
@@ -1262,7 +1262,7 @@ textarea {
   }
   .contact-title {
     font-size: 12px;
-    bottom: 50px;
+    bottom: 65px;
     width: 300px;
   }
 }
