@@ -1136,8 +1136,24 @@ textarea {
     height: 100%;
     flex-direction: column;
     align-items: center;
-    transform: translateX(-100%);
-    z-index: 100;
+    transform: translateX(100%);
+    z-index: 1000;
+    transition: 0.3s;
+  }
+  body.burger-open .menu{
+    transform: translateX(0);
+  }
+  .burger-btn{
+    z-index: 1001;
+  }
+  .burger-btn>.close{
+    display: none;
+  }
+  body.burger-open .burger-btn>.open{
+    display: none;
+  }
+  body.burger-open .burger-btn>.close{
+    display: inline-block;
   }
   .logo-wrap {
     order: -1;
