@@ -555,7 +555,12 @@
       ></iframe>
     </section>
     <footer class="footer">
-      <a href="#"> © Copyright Mindblister 2019</a>
+      <a href="#"> © Copyright Mindblister  <span id="copyYear">2019</span>
+
+      </a>
+      <script>
+        copyYear.textContent = new Date().getFullYear()
+      </script>
     </footer>
   </body>
 </html>
