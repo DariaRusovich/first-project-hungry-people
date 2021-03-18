@@ -24,7 +24,7 @@
     <header class="header">
       <div class="container">
         <nav class="nav-bar">
-          <ul class="menu">
+          <ul class="menu" id="menu">
             <li><a href="#"> Home </a></li>
             <li><a href="#aboutUs"> About </a></li>
             <li><a href="#ourTeam"> Team </a></li>
@@ -57,9 +57,20 @@
                 alt="Logo"
               />
             </a>
-            <button class="burger-btn">
-              <i class="fas fa-bars" aria-label="menu"></i>
+            <button class="burger-btn" id="burgerBtn">
+              <i class="open fas fa-bars" aria-label="menu"></i>
+              <i class="close fas fa-times" aria-label="menu"></i>
             </button>
+            <script>
+              burgerBtn.onclick = () => {
+                document.body.classList.toggle('burger-open')
+              }
+                menu.onclick = event => {
+                if (event.target.closest('a')) {
+                  document.body.classList.toggle('burger-open')
+                }
+              }
+            </script>
           </div>
         </nav>
       </div>
@@ -428,11 +439,11 @@
         </div>
         <h2 class="contact-title">
           For private events please call:
-          <span
-            ><a href="tel:+40 729 131 637/+40 726 458 782"
-              >+40 729 131 637/+40 726 458 782</a
-            ></span
-          >
+          <span><a href="tel:+40 729 131 637"
+              >+40 729 131 637/</a>
+              <a href="tel:+40 726 458 782"
+              >+40 726 458 782</a>
+              </span>
           or use the contact form.
         </h2>
       </div>
@@ -512,8 +523,11 @@
                 </a>
               </li>
               <li>
-                <a href="tel:+40 729 131 637/+40 726 458 782">
-                  <i class="fas fa-phone"></i> +40 729 131 637/+40 726 458 782
+                <a href="tel:+40 729 131 637">
+                  <i class="fas fa-phone"></i> +40 729 131 637/
+                </a>
+                <a href="tel:+40 726 458 782">
+                  +40 726 458 782
                 </a>
               </li>
               <li class="message">
