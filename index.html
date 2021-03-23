@@ -4,563 +4,567 @@
     <script async src="./js/modernizr-webp.js"></script>
     <link rel="preload" href="./css/style.css" as="style" />
     <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/solid.css"
+      integrity="sha384-6qO6EOFIDfvv6uzAzozX/BvMu/qkIIHxWYOVMjpVjX+NtPuNyd3YiOEflKIIV2ka"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/brands.css"
+      integrity="sha384-RTi1U6SIW2G3kUi5NslKQjA34F8CsQCVduJO50jqtxhR2KY++LR7KZS2886EwXrk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/fontawesome.css"
+      integrity="sha384-Hx1dya9ptAdKu2hLNR5C2Cwgm+wCfwD0VMGE6jk5OUxxa9I58YfxOCwEtRog+3wk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/icons.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
-      crossorigin="anonymous"
-    />
-    <title>Hungry people restourant</title>
+    <title>New good landing</title>
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <nav class="nav-bar">
-          <ul class="menu" id="menu">
-            <li><a href="#"> Home </a></li>
-            <li><a href="#aboutUs"> About </a></li>
-            <li><a href="#ourTeam"> Team </a></li>
-            <li><a href="#booking"> Booking </a></li>
-
-            <li class="logo-wrap">
-              <a class="logo" href="index.html">
-                <img
-                  width="150"
-                  height="150"
-                  loading="lazy"
-                  src="./img/logo.svg"
-                  alt="Logo"
-                />
-              </a>
-            </li>
-
-            <li><a href="#ourMenu"> Menu </a></li>
-            <li><a href="#ourGallary"> Galerie </a></li>
-            <li><a href="#ourEvents"> Events </a></li>
-            <li><a href="#ourContacts"> Contact </a></li>
-          </ul>
-          <div class="burger-menu">
-            <a class="logo" href="index.html">
+    <div class="wrapper">
+      <header class="header">
+        <div class="container header-nav">
+          <div class="header-logo">
+            <a href="index.html">
               <img
-                width="150"
-                height="150"
+                class="logo"
+                width="1"
+                height="1"
                 loading="lazy"
                 src="./img/logo.svg"
                 alt="Logo"
               />
-            </a>
-            <button class="burger-btn" id="burgerBtn">
-              <i class="open fas fa-bars" aria-label="menu"></i>
-              <i class="close fas fa-times" aria-label="menu"></i>
-            </button>
-            <script>
-              burgerBtn.onclick = () => {
-                document.body.classList.toggle('burger-open')
-              }
-                menu.onclick = event => {
-                if (event.target.closest('a')) {
-                  document.body.classList.toggle('burger-open')
-                }
-              }
-            </script>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <div class="hero">
-      <div class="container hero-content">
-        <div class="hero-mode">
-          <p>Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
-        </div>
-        <div class="hero-offer">
-          <h1 class="hero-main-title line">
-            Restourant
-            <br />
-            <span class="title-font">Hungry people</span>
-          </h1>
-          <div class="hero-btns">
-            <button href="#" class="btn btn-primary">Book table</button>
-            <button href="#" class="btn btn-secondary">Explore</button>
-          </div>
-          <div class="arrow">
-            <a
-              class="fas fa-angle-down hero-arrow"
-              href="#aboutUs"
-            ></a>
-          </div>
-        </div>
-        <ul class="social">
-          <li>
-            <a
-              aria-label="Facebook"
-              href="https://facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
+              xPider</a
             >
-              <i class="fab fa-facebook-f"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              aria-label="Twitter"
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-            >
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              aria-label="Instagram"
-              href="https://instagram.com/"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-            >
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <section class="light section" id="aboutUs">
-      <div class="container main">
-        <article class="content">
-          <h2 class="title-font line title-secondary">About us</h2>
-          <h3 class="title-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
-            velit max++t a, tempor magna.
-          </h3>
-          <p class="text">
-            Integer ullamcorper neque eu purus euismod, ac faucibus mauris
-            posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper
-            feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem.
-            Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis
-            semper laoreet.
-          </p>
-        </article>
-        <div class="article-img">
-          <picture class="picture">
-            <source srcset="img/about-img.webp" type="image/webp" />
-            <source srcset="img/about-img.jpg" type="image/jpeg" />
-            <img
-              width="1"
-              height="1"
-              loading="lazy"
-              class="content-img"
-              src="img/about-img.jpg"
-              alt="About us"
-            />
-          </picture>
-        </div>
-      </div>
-    </section>
-
-    <section class="dark section section-team" id="ourTeam">
-      <div class="container reverse main">
-        <h2 class="title-section title">Our team</h2>
-
-        <article class="content">
-          <h3 class="title-font line title-secondary">Master chef</h3>
-          <h4 class="title-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
-            velit max++t a, tempor magna.
-          </h4>
-          <p class="text">
-            Integer ullamcorper neque eu purus euismod, ac faucibus mauris
-            posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper
-            feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem.
-            Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis
-            semper laoreet.
-          </p>
-        </article>
-        <div class="article-img article-img-reverse">
-          <picture class="picture">
-            <source srcset="img/team.webp" type="image/webp" />
-            <source srcset="img/team.jpg" type="image/jpeg" />
-            <img
-              width="1"
-              height="1"
-              loading="lazy"
-              class="content-img"
-              src="img/team.jpg"
-              alt="About us"
-            />
-          </picture>
-        </div>
-      </div>
-    </section>
-
-    <section class="light section" id="booking">
-      <div class="container main">
-        <form name="BookForm" class="book-form">
-          <h2 class="title-font line title-secondary">Book a table</h2>
-          <input type="text" name="customName" placeholder="Name" required />
-          <input type="tel" name="customTel" placeholder="Phone" required />
-          <input type="date" name="date" required />
-          <input type="email" name="customEmail" placeholder="Email" required />
-          <input
-            type="text"
-            name="amountPeople"
-            list="typePeople"
-            placeholder="People"
-            required
-          />
-          <datalist id="typePeople">
-            <option value="1"></option>
-            <option value="2"></option>
-            <option value="3"></option>
-            <option value="4"></option>
-            <option value="5"></option>
-            <option value="6"></option>
-          </datalist>
-          <input
-            type="text"
-            name="amountPeople"
-            list="typeTime"
-            placeholder="Time"
-            required
-          />
-          <datalist id="typeTime">
-            <option value="5 pm"></option>
-            <option value="6 pm "></option>
-            <option value="7 pm"></option>
-            <option value="8 pm"></option>
-            <option value="9 pm"></option>
-            <option value="10 pm"></option>
-          </datalist>
-          <button type="submit" class="btn btn-primary btn-block">
-            Book now
-          </button>
-        </form>
-        <div class="article-img">
-          <picture class="picture">
-            <source srcset="img/book-section.webp" type="image/webp" />
-            <source srcset="img/book-section.jpg" type="image/jpeg" />
-            <img
-              width="1"
-              height="1"
-              loading="lazy"
-              class="content-img"
-              src="img/book-section.jpg"
-              alt="About us"
-            />
-          </picture>
-        </div>
-      </div>
-    </section>
-    <section class="dark section section-specialiti">
-      <div class="container reverse main">
-        <h2 class="title-section title">Specialities</h2>
-
-        <article class="content">
-          <h2 class="title-font line title-secondary">Chocolate pancakes</h2>
-          <h3 class="title-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
-            velit maximus, molestie est a, tempor magna.
-          </h3>
-          <p class="text">
-            Integer ullamcorper neque eu purus euismod, ac faucibus mauris
-            posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper
-            feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem.
-            Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis
-            semper laoreet.
-          </p>
-        </article>
-        <div class="article-img article-img-reverse">
-          <picture class="picture">
-            <source srcset="img/section-specialiti.webp" type="image/webp" />
-            <source srcset="img/section-specialiti.jpg" type="image/jpeg" />
-            <img
-              width="1"
-              height="1"
-              loading="lazy"
-              class="content-img"
-              src="img/section-specialiti.jpg"
-              alt="About us"
-            />
-          </picture>
-        </div>
-      </div>
-    </section>
-    <section class="light section" id="ourMenu">
-      <div class="container main main-menu">
-        <h2 class="title-font line title-secondary">Delicious menu</h2>
-        <h3 class="title-text menu-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
-          maximus, molestie est a, tempor magna.
-        </h3>
-        <ul class="menu-section slide-menu">
-          <li><a href="#">Soupe</a></li>
-          <li><a href="#">Pizza</a></li>
-          <li><a href="#">Pasta</a></li>
-          <li><a href="#">Dessert</a></li>
-          <li><a href="#">Wine</a></li>
-          <li><a href="#">Beer</a></li>
-          <li><a href="#">Drinks</a></li>
-        </ul>
-        <dl class="menu-list">
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
           </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-          <div>
-            <dt>PIZZA QUATRO STAGIONI . . . . 55,68 USD</dt>
-            <dd>Integer ullamcorper neque eu purus euismod</dd>
-          </div>
-        </dl>
-      </div>
-    </section>
-    <section
-      class="dark section section-specialiti section-events"
-      id="ourEvents"
-    >
-      <div class="container main main-events">
-        <h2 class="title-section title">Private events</h2>
-        <div class="article-img article-img-reverse article-img-decorated">
-          <picture class="picture">
-            <source srcset="img/event-1.webp" type="image/webp" />
-            <source srcset="img/event-1.jpg" type="image/jpeg" />
-            <img
-              width="1"
-              height="1"
-              loading="lazy"
-              class="content-img details"
-              src="img/event-1.jpg"
-              alt="About us"
-            />
-          </picture>
-          <div class="decoration">
-            <h3 class="title-decoration">Weddings</h3>
-          </div>
-        </div>
-        <div class="article-img article-img-decorated">
-          <picture class="picture">
-            <source srcset="img/event-2.webp" type="image/webp" />
-            <source srcset="img/event-2.jpg" type="image/jpeg" />
-            <img
-              width="1"
-              height="1"
-              loading="lazy"
-              class="content-img details"
-              src="img/event-2.jpg"
-              alt="About us"
-            />
-          </picture>
-          <div class="decoration decoration-reverse">
-            <h3 class="title-decoration title-decoration-reverse">
-              Corporate pzrties
-            </h3>
-          </div>
-        </div>
-        <h2 class="contact-title">
-          For private events please call:
-          <span><a href="tel:+40 729 131 637"
-              >+40 729 131 637/</a>
-              <a href="tel:+40 726 458 782"
-              >+40 726 458 782</a>
-              </span>
-          or use the contact form.
-        </h2>
-      </div>
-    </section>
-    <section class="gallery-slider-section" id="ourGallary">
-      <div class="gallery-slider">
-        <picture class="picture event-picture">
-          <source srcset="img/gallery1.webp" type="image/webp" />
-          <source srcset="img/gallery1.jpg" type="image/jpeg" />
-          <img
-            width="1"
-            height="1"
-            loading="lazy"
-            class="event-img details"
-            src="img/gallery1.jpg"
-            alt="About us"
-          />
-        </picture>
-        <picture class="picture event-picture">
-          <source srcset="img/gallery2.webp" type="image/webp" />
-          <source srcset="img/gallery2.jpg" type="image/jpeg" />
-          <img
-            width="1"
-            height="1"
-            loading="lazy"
-            class="event-img details"
-            src="img/gallery2.jpg"
-            alt="About us"
-          />
-        </picture>
-        <picture class="picture event-picture">
-          <source srcset="img/gallery3.webp" type="image/webp" />
-          <source srcset="img/gallery3.jpg" type="image/jpeg" />
-          <img
-            width="1"
-            height="1"
-            loading="lazy"
-            class="event-img details"
-            src="img/gallery3.jpg"
-            alt="About us"
-          />
-        </picture>
-        <picture class="picture event-picture">
-          <source srcset="img/gallery4.webp" type="image/webp" />
-          <source srcset="img/gallery14.jpg" type="image/jpeg" />
-          <img
-            width="1"
-            height="1"
-            loading="lazy"
-            class="event-img details"
-            src="img/gallery4.jpg"
-            alt="About us"
-          />
-        </picture>
-      </div>
-    </section>
-    <section class="light section" id="ourContacts">
-      <div class="container main main-menu">
-        <h2 class="title-font line title-secondary">Contact</h2>
-        <h3 class="title-text menu-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
-          maximus, molestie est a, tempor magna.
-        </h3>
-        <form name="contactForm" class="contact-form">
-          <input type="text" name="customName" placeholder="Name" required />
-          <input type="tel" name="customTel" placeholder="Phone" required />
-          <input type="email" name="customEmail" placeholder="Email" />
-          <textarea name="textMessage" placeholder="Message"> </textarea>
-          <div class="contacts">
-            <ul class="our-contacts">
-              <li>
-                <a href="https://www.google.com/maps/search/London+Boulevard/@57.6993643,11.975369,16z/data=!3m1!4b1?hl=ru"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow">
-                  <i class="fas fa-map-marker-alt"></i> 5th London Boulevard,
-                  U.K.
+          <nav class="nav">
+            <ul class="menu">
+              <li><a class="link" href="#">Features</a></li>
+              <li><a class="link" href="#"> Pricing</a></li>
+              <li class="drop">
+                <a class="link" href="#"
+                  >Pages
+                  <i class="fas fa-chevron-down"></i>
                 </a>
-              </li>
-              <li>
-                <a href="tel:+40 729 131 637">
-                  <i class="fas fa-phone"></i> +40 729 131 637/
-                </a>
-                <a href="tel:+40 726 458 782">
-                  +40 726 458 782
-                </a>
-              </li>
-              <li class="message">
-                <a href="mailto:office@mindblister.com">
-                  <i class="fas fa-envelope"></i> office@mindblister.com
-                </a>
+
+                <ul class="drop-menu">
+                  <li><a class="link" href="#">About Us</a></li>
+                  <li><a class="link" href="#">Careers</a></li>
+                  <li><a class="link" href="#">Guidelines</a></li>
+                </ul>
               </li>
             </ul>
-            <button type="submit" class="btn btn-primary btn-half">
-              SEND MESSAGE
+            <button class="menu-btn">Get started now</button>
+          </nav>
+        </div>
+      </header>
+      <div class="hero">
+        <div class="container hero-offer">
+          <h1>xPider is coming to make your successful with business.</h1>
+          <p>
+            When you need a kickstart in your business and you have no time for
+            coding for your website, xPider will take that job for you and will
+            build a great looking website in minutes.
+          </p>
+          <div class="hero-btns">
+            <button class="btn">
+              <img
+                class="icon-btn"
+                width="1"
+                height="1"
+                loading="lazy"
+                src="./img/archery-target.svg"
+                alt="Target"
+              />
+              <span> Get started </span>
+            </button>
+            <button class="btn">
+              <img
+                class="icon-btn"
+                width="1"
+                height="1"
+                loading="lazy"
+                src="./img/bill.svg"
+                alt="Target"
+              />
+              <span> Check price </span>
+            </button>
+            <button class="btn">
+              <img
+                class="icon-btn"
+                width="1"
+                height="1"
+                loading="lazy"
+                src="./img/button-circle-play.svg"
+                alt="Target"
+              />
+              <span> Watch Video </span>
             </button>
           </div>
-        </form>
+        </div>
       </div>
-    </section>
-    <section>
-      <iframe
-        class="map"
-        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4264.012419045374!2d11.975368999586937!3d57.69936431512649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sLondon%20Boulevard!5e0!3m2!1sru!2sua!4v1615658961590!5m2!1sru!2sua"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-      ></iframe>
-    </section>
-    <footer class="footer">
-      <a href="#"> © Copyright Mindblister  <span id="copyYear">2019</span>
+      <section class="section">
+        <div class="container">
+          <div class="title-wrapp">
+            <h2 class="section-title darker-color">Why choose xPider?<br /></h2>
+            <h3 class="section-title section-main-title">
+              A simple, proven way to boost your team performance.
+            </h3>
+          </div>
+          <div class="section-articles">
+            <article class="article">
+              <div class="article-title">
+                <img
+                  class="icon-article"
+                  width="1"
+                  height="1"
+                  loading="lazy"
+                  src="./img/family.svg"
+                  alt="Family"
+                />
+                <h4 class="article-secondary-title">One Platform</h4>
+              </div>
+              <p class="text">
+                <span>No more Mulitple Platforms.</span> Now it had seen unable
+                uneasy. Drawings can followed by improved out sociable not.
+                Earnestly so do instantly pretended.
+              </p>
+            </article>
+            <article class="article">
+              <div class="article-title">
+                <img
+                  class="icon-article"
+                  width="1"
+                  height="1"
+                  loading="lazy"
+                  src="./img/b-meeting.svg"
+                  alt="Family"
+                />
+                <h4 class="article-secondary-title">Communication</h4>
+              </div>
+              <p class="text">
+                <span>No more hassle in communication.</span> New had happen
+                unable uneasy. Drawings can followed improved out sociable not.
+                Earnestly so do instantly pretended.
+              </p>
+            </article>
+            <article class="article">
+              <div class="article-title">
+                <img
+                  class="icon-article"
+                  width="1"
+                  height="1"
+                  loading="lazy"
+                  src="./img/filter-organization.svg"
+                  alt="Family"
+                />
+                <h4 class="article-secondary-title">Project Management</h4>
+              </div>
+              <p class="text">
+                <span>Easily manage your projects.</span> Drawings can followed
+                improved out sociable not. Earnestly so do instantly pretended.
+                See general few civilly amiable pleased account carried.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section section-manage">
+        <div class="container manage-container">
+          <div class="article-title-text">
+            <h2 class="section-title article-about darker-color">
+              Manage your team<br />
+            </h2>
+            <h3 class="section-main-title">
+              xPider helps you to manage your team remotely!
+            </h3>
+            <p class="text">
+              Silent sir say desire fat him letter. Whatever settling goodness
+              too and honoured she building answered her. Strongly thoughts
+              remember mr to do consider debating. Spirits musical behaved on we
+              he farther letters.
+            </p>
+            <a href="#" class="arrow link">
+              Find out more
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="video-wrap">
+            <button class="video-play-btn" id="playBtn">
+              <i class="fas fa-play"></i>
+            </button>
+            <video
+              id="video"
+              src="video/1.mp4"
+              class="video"
+              poster="img/video-poster.jpg"
+            ></video>
+          </div>
+        </div>
+      </section>
+      <section class="section ap-section">
+        <div class="container">
+          <div class="article-ap">
+            <div class="article-light">
+              <h2 class="section-title lighter-color">
+                Everything on mobile<br />
+                <h3 class="section-main-title ap-title">
+                  Use your android or ios device to manage everything.
+                </h3>
+              </h2>
+              <p class="text lighter-color">
+                Silent sir say desire fat him letter. Whatever settling goodness
+                too and honoured she building answered her. Strongly thoughts
+                remember mr to do consider.
+              </p>
+            </div>
 
-      </a>
+            <picture class="picture">
+              <source srcset="img/mobile.webp" type="image/webp" />
+              <source srcset="img/mobile.png" type="image/png" />
+              <img
+                width="1"
+                height="1"
+                loading="lazy"
+                class="article-img"
+                src="img/mobile.png"
+                alt="Mobile interfase"
+              />
+            </picture>
+            <div class="sliders-wrap">
+              <div class="test-slider-arrows">
+                <div class="test-slider-arrow test-slider-prev">
+                  <i class="fas fa-play"></i>
+                </div>
+                <div class="test-slider-arrow test-slider-next">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <!-- Slider main container -->
+              <div class="swiper-container test-slider">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">Productivity</div>
+                  <div class="swiper-slide">Manangement</div>
+                  <div class="swiper-slide">Time tracking</div>
+                  <div class="swiper-slide">Payment</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section feature-content">
+        <div class="container">
+          <div class="section-skew">
+            <div class="title-wrapp">
+              <h2 class="section-title darker-color">
+                xPider makes your life easy<br />
+              </h2>
+              <h3 class="section-main-title">
+                Make your life easy, get a better way to communicate.
+              </h3>
+            </div>
+            <div class="feature-cards">
+              <div class="card">
+                <div class="icon-back">
+                  <img
+                    class="card-icon"
+                    width="1"
+                    height="1"
+                    loading="lazy"
+                    src="./img/grid-solves.svg"
+                    alt="Phone"
+                  />
+                </div>
+                <h4 class="card-title article-title">
+                  One Platform <br />
+                  <span>Solves Everything</span>
+                </h4>
+                <p>
+                  Now it had seen unable uneasy. Drawings can followed by
+                  improved out sociable not. Earnestly so do instantly
+                  pretended.
+                </p>
+                <a href="#" class="arrow link">
+                  Get xPider Now
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+              <div class="card">
+                <div class="icon-back">
+                  <img
+                    class="card-icon"
+                    width="1"
+                    height="1"
+                    loading="lazy"
+                    src="./img/grid-organize.svg"
+                    alt="Phone"
+                  />
+                </div>
+                <h4 class="card-title article-title">
+                  Fastest Management,
+                  <br />
+                  <span>Easy to Organize</span>
+                </h4>
+                <p>
+                  Now it had seen unable uneasy. Drawings can followed by
+                  improved out sociable not. Earnestly so do instantly
+                  pretended.
+                </p>
+                <a href="#" class="arrow link">
+                  Find out more
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- GUIDE-SECTION STYLES START -->
+
+      <section class="section guide-section">
+        <div class="container">
+          <div class="title-wrapp">
+            <h2 class="section-title darker-color">
+              More than a software<br />
+            </h2>
+            <h3 class="section-main-title">
+              The proper guide that helps you to unlock the real potential.
+            </h3>
+          </div>
+          <div class="guide-content">
+            <picture class="picture picture-guide">
+              <source srcset="img/team.webp" type="image/webp" />
+              <source srcset="img/team.jpg" type="image/jpeg" />
+              <img
+                width="1"
+                height="1"
+                loading="lazy"
+                class="guide-img"
+                src="img/team.jpg"
+                alt="Our team"
+              />
+            </picture>
+            <div class="guide-article">
+              <article class="article">
+                <div class="article-title">
+                  <img
+                    class="icon-article"
+                    width="1"
+                    height="1"
+                    loading="lazy"
+                    src="./img/book-open.svg"
+                    alt="Book open"
+                  />
+                  <h4 class="article-secondary-title">Installation Guide</h4>
+                </div>
+                <p class="text">
+                  No more Mulitple Platforms. Now it had seen unable uneasy.
+                  Drawings can followed by improved out sociable not. Earnestly
+                  so do instantly pretended.
+                </p>
+              </article>
+              <article class="article">
+                <div class="article-title">
+                  <img
+                    class="icon-article"
+                    width="1"
+                    height="1"
+                    loading="lazy"
+                    src="./img/phone.svg"
+                    alt="Phone"
+                  />
+                  <h4 class="article-secondary-title">Live call support</h4>
+                </div>
+                <p class="text">
+                  No more Mulitple Platforms. Now it had seen unable uneasy.
+                  Drawings can followed by improved out sociable not. Earnestly
+                  so do instantly pretended.
+                </p>
+              </article>
+              <article class="article">
+                <div class="article-title">
+                  <img
+                    class="icon-article"
+                    width="1"
+                    height="1"
+                    loading="lazy"
+                    src="./img/preferences-circle.svg"
+                    alt="Preferences"
+                  />
+                  <h4 class="article-secondary-title">Easy setup process</h4>
+                </div>
+                <p class="text">
+                  No more Mulitple Platforms. Now it had seen unable uneasy.
+                  Drawings can followed by improved out sociable not. Earnestly
+                  so do instantly pretended.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PAGINATION SWIPER SECTION -->
+
+      <section class="section pag-section guide-section">
+        <div class="container">
+          <div class="title-wrapp">
+            <h2 class="section-title darker-color">
+              5,000+ Teams trust xPider<br />
+            </h2>
+            <h3 class="section-main-title">
+              People love xPider. See some of the stories.
+            </h3>
+          </div>
+
+          <div class="swiper-container pagination-slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="slide-text">
+                  <p>
+                    “Life before xPider was very chaotic — we got a lot of phone
+                    calls, a lot of mistyped orders. So with Company, the
+                    ability to see the order directly from the customer makes it
+                    so streamlined.”
+                  </p>
+                  <h4>
+                    <span>Frank Hardy</span> <br />
+                    Creative Director
+                  </h4>
+                  <img src="./img/logo-client.svg" alt="AirBNB logo" />
+                </div>
+                <img
+                  class="pag-img"
+                  src="./img/client.webp"
+                  alt="Frank Hardy Creative Director"
+                />
+              </div>
+
+              <div class="swiper-slide">
+                <div class="slide-text">
+                  <p>
+                    “Life before xPider was very chaotic — we got a lot of phone
+                    calls, a lot of mistyped orders. So with Company, the
+                    ability to see the order directly from the customer makes it
+                    so streamlined.”
+                  </p>
+                  <h4>
+                    <span>Frank Hardy</span> <br />
+                    Creative Director
+                  </h4>
+                  <img src="./img/logo-client.svg" alt="AirBNB logo" />
+                </div>
+                <img
+                  class="pag-img"
+                  src="./img/client.webp"
+                  alt="Frank Hardy Creative Director"
+                />
+              </div>
+
+              <div class="swiper-slide">
+                <div class="slide-text">
+                  <p>
+                    “Life before xPider was very chaotic — we got a lot of phone
+                    calls, a lot of mistyped orders. So with Company, the
+                    ability to see the order directly from the customer makes it
+                    so streamlined.”
+                  </p>
+                  <h4>
+                    <span>Frank Hardy</span> <br />
+                    Creative Director
+                  </h4>
+                  <img src="./img/logo-client.svg" alt="AirBNB logo" />
+                </div>
+                <img
+                  class="pag-img"
+                  src="./img/client.webp"
+                  alt="Frank Hardy Creative Director"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="pagination-img"></div>
+        </div>
+      </section>
+
+      <!-- PAGINATION SWIPER SECTION -->
+
+      <section class="section check-section">
+        <div class="container">
+          <div class="title-wrapp">
+            <h2 class="section-main-title">
+              Try xPider for 14 days, for free!
+            </h2>
+            <p class="lighter-color">
+              Millions of people around the world have already made xPider the
+              place where their works happens.
+            </p>
+          </div>
+          <form name="contactForm" class="check-mail">
+            <input type="email" name="customEmail" placeholder="Enter your email to start" aria-label="Enter your email to start" />
+            <button type="submit" class="menu-btn btn-check">
+              Get started
+            </button>
+          
+          </form>
+          <h3>No credit card required.</h3>
+        </div>
+      </section>
+
+      <link
+        rel="preload"
+        href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        as="style"
+      />
+      <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper/swiper-bundle.min.css"
+      />
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
       <script>
-        copyYear.textContent = new Date().getFullYear()
+        const testSlider = new Swiper(".test-slider", {
+          slidesPerView: 3,
+          spaceBetween: 10,
+        });
       </script>
-    </footer>
+
+      <!-- PAGINATION SWIPER SECTION -->
+
+      <script>
+        const paginationSlider = new Swiper(".pagination-slider", {
+          slidesPerView: 1,
+          spaceBetween: 55,
+
+          pagination: {
+            el: ".pagination-img",
+            clickable: true,
+          },
+          speed: 800,
+        });
+      </script>
+
+      <!-- PAGINATION SWIPER SECTION -->
+
+      <script>
+        playBtn.onclick = function () {
+          video.controls = true;
+          video.play();
+          this.classList.add("hide");
+        };
+      </script>
+    </div>
   </body>
 </html>

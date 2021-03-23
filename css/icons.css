@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../fonts/icons.eot?216ozx');
+  src:  url('../fonts/icons.eot?216ozx#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?216ozx') format('truetype'),
+    url('../fonts/icons.woff?216ozx') format('woff'),
+    url('../fonts/icons.svg?216ozx#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-caret-right:before {
+  content: "\e90a";
+}
+.icon-target:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-bill:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-meeting .path1:before {
+  content: "\e902";
+  color: rgb(47, 91, 234);
+  opacity: 0.5372;
+}
+.icon-meeting .path2:before {
+  content: "\e903";
+  margin-left: -1.0556640625em;
+  color: rgb(255, 255, 255);
+}
+.icon-meeting .path3:before {
+  content: "\e904";
+  margin-left: -1.0556640625em;
+  color: rgb(255, 255, 255);
+}
+.icon-meeting .path4:before {
+  content: "\e905";
+  margin-left: -1.0556640625em;
+  color: rgb(255, 255, 255);
+}
+.icon-meeting .path5:before {
+  content: "\e906";
+  margin-left: -1.0556640625em;
+  color: rgb(255, 255, 255);
+}
+.icon-meeting .path6:before {
+  content: "\e907";
+  margin-left: -1.0556640625em;
+  color: rgb(255, 255, 255);
+}
+.icon-book-open:before {
+  content: "\e908";
+  color: #2f5bea;
+}
+.icon-circle-play:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-chevron-down:before {
+  content: "\e90c";
+}
+.icon-dribbble:before {
+  content: "\e90d";
+}
+.icon-chevron-up:before {
+  content: "\e90e";
+}
+.icon-facebook-f:before {
+  content: "\e90f";
+}
+.icon-family .path1:before {
+  content: "\e910";
+  color: rgb(47, 91, 234);
+  opacity: 0.5372;
+}
+.icon-family .path2:before {
+  content: "\e911";
+  margin-left: -1.0859375em;
+  color: rgb(255, 255, 255);
+}
+.icon-family .path3:before {
+  content: "\e912";
+  margin-left: -1.0859375em;
+  color: rgb(255, 255, 255);
+}
+.icon-family .path4:before {
+  content: "\e913";
+  margin-left: -1.0859375em;
+  color: rgb(255, 255, 255);
+}
+.icon-family .path5:before {
+  content: "\e914";
+  margin-left: -1.0859375em;
+  color: rgb(255, 255, 255);
+}
+.icon-family .path6:before {
+  content: "\e915";
+  margin-left: -1.0859375em;
+  color: rgb(255, 255, 255);
+}
+.icon-filter .path1:before {
+  content: "\e916";
+  color: rgb(255, 255, 255);
+}
+.icon-filter .path2:before {
+  content: "\e917";
+  margin-left: -0.94140625em;
+  color: rgb(255, 255, 255);
+}
+.icon-filter .path3:before {
+  content: "\e918";
+  margin-left: -0.94140625em;
+  color: rgb(255, 255, 255);
+}
+.icon-filter .path4:before {
+  content: "\e919";
+  margin-left: -0.94140625em;
+  color: rgb(47, 91, 234);
+  opacity: 0.5372;
+}
+.icon-filter .path5:before {
+  content: "\e91a";
+  margin-left: -0.94140625em;
+  color: rgb(47, 91, 234);
+  opacity: 0.5372;
+}
+.icon-filter .path6:before {
+  content: "\e91b";
+  margin-left: -0.94140625em;
+  color: rgb(47, 91, 234);
+  opacity: 0.5372;
+}
+.icon-filter .path7:before {
+  content: "\e91c";
+  margin-left: -0.94140625em;
+  color: rgb(255, 255, 255);
+}
+.icon-filter .path8:before {
+  content: "\e91d";
+  margin-left: -0.94140625em;
+  color: rgb(255, 255, 255);
+}
+.icon-filter .path9:before {
+  content: "\e91e";
+  margin-left: -0.94140625em;
+  color: rgb(255, 255, 255);
+}
+.icon-logo:before {
+  content: "\e91f";
+  color: #fff;
+}
+.icon-phone:before {
+  content: "\e920";
+  color: #2f5bea;
+}
+.icon-pref-circle:before {
+  content: "\e921";
+  color: #2f5bea;
+}
+.icon-shape-logo:before {
+  content: "\e922";
+  color: #f6f8f9;
+}
+.icon-dribble:before {
+  content: "\e923";
+}
