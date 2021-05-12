@@ -18,6 +18,7 @@
       integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <title>Hungry people restourant</title>
   </head>
   <body>
@@ -449,56 +450,66 @@
       </div>
     </section>
     <section class="gallery-slider-section" id="ourGallary">
-      <div class="gallery-slider">
-        <picture class="picture event-picture">
-          <source srcset="img/gallery1.webp" type="image/webp" />
-          <source srcset="img/gallery1.jpg" type="image/jpeg" />
-          <img
-            width="1"
-            height="1"
-            loading="lazy"
-            class="event-img details"
-            src="img/gallery1.jpg"
-            alt="About us"
-          />
-        </picture>
-        <picture class="picture event-picture">
-          <source srcset="img/gallery2.webp" type="image/webp" />
-          <source srcset="img/gallery2.jpg" type="image/jpeg" />
-          <img
-            width="1"
-            height="1"
-            loading="lazy"
-            class="event-img details"
-            src="img/gallery2.jpg"
-            alt="About us"
-          />
-        </picture>
-        <picture class="picture event-picture">
-          <source srcset="img/gallery3.webp" type="image/webp" />
-          <source srcset="img/gallery3.jpg" type="image/jpeg" />
-          <img
-            width="1"
-            height="1"
-            loading="lazy"
-            class="event-img details"
-            src="img/gallery3.jpg"
-            alt="About us"
-          />
-        </picture>
-        <picture class="picture event-picture">
-          <source srcset="img/gallery4.webp" type="image/webp" />
-          <source srcset="img/gallery14.jpg" type="image/jpeg" />
-          <img
-            width="1"
-            height="1"
-            loading="lazy"
-            class="event-img details"
-            src="img/gallery4.jpg"
-            alt="About us"
-          />
-        </picture>
-      </div>
+      <!-- Slider main container -->
+<div class="swiper-container mySwiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <picture class="picture event-picture">
+      <source srcset="img/gallery1.webp" type="image/webp" />
+      <source srcset="img/gallery1.jpg" type="image/jpeg" />
+      <img
+        width="1"
+        height="1"
+        loading="lazy"
+        class="event-img details"
+        src="img/gallery1.jpg"
+        alt="About us"
+      />
+    </picture></div>
+    <div class="swiper-slide"> 
+      <picture class="picture event-picture">
+      <source srcset="img/gallery2.webp" type="image/webp" />
+      <source srcset="img/gallery2.jpg" type="image/jpeg" />
+      <img
+        width="1"
+        height="1"
+        loading="lazy"
+        class="event-img details"
+        src="img/gallery2.jpg"
+        alt="About us"
+      />
+    </picture></div>
+    <div class="swiper-slide"> 
+      <picture class="picture event-picture">
+      <source srcset="img/gallery3.webp" type="image/webp" />
+      <source srcset="img/gallery3.jpg" type="image/jpeg" />
+      <img
+        width="1"
+        height="1"
+        loading="lazy"
+        class="event-img details"
+        src="img/gallery3.jpg"
+        alt="About us"
+      />
+    </picture></div>
+    <div class="swiper-slide"> 
+      <picture class="picture event-picture">
+        <source srcset="img/gallery4.webp" type="image/webp" />
+        <source srcset="img/gallery14.jpg" type="image/jpeg" />
+        <img
+          width="1"
+          height="1"
+          loading="lazy"
+          class="event-img details"
+          src="img/gallery4.jpg"
+          alt="About us"
+        />
+      </picture></div>
+  </div>
+</div>
+
     </section>
     <section class="light section" id="ourContacts">
       <div class="container main main-menu">
@@ -562,5 +573,44 @@
         copyYear.textContent = new Date().getFullYear()
       </script>
     </footer>
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        loop: true,
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 4,
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+    
+    },
+    // when window width is >= 576px
+    576: {
+      slidesPerView: 2,
+     
+    },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 2.5,
+      
+    },
+    992: {
+      slidesPerView: 3,
+      
+    }
+  }
+      });
+    </script>
   </body>
 </html>
