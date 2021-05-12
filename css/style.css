@@ -828,6 +828,12 @@ textarea {
   display: flex;
   flex-wrap: nowrap;
 }
+.gallery-slider-section .swiper-button-next, .gallery-slider-section .swiper-button-prev{
+color: var(--color);
+}
+
+
+
 /*===========EVENTS SECTION STYLES END============*/
 
 /*===========CONTACT SECTION STYLES START============*/
