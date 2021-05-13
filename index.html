@@ -258,40 +258,148 @@
         </div>
       </div>
     </section>
-    <section class="dark section section-specialiti">
-      <div class="container reverse main">
-        <h2 class="title-section title">Specialities</h2>
-
-        <article class="content">
-          <h2 class="title-font line title-secondary">Chocolate pancakes</h2>
-          <h3 class="title-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
-            velit maximus, molestie est a, tempor magna.
-          </h3>
-          <p class="text">
-            Integer ullamcorper neque eu purus euismod, ac faucibus mauris
-            posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper
-            feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem.
-            Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis
-            semper laoreet.
-          </p>
-        </article>
-        <div class="article-img article-img-reverse">
+    <!-- Slider main container -->
+<div class="swiper-container myNewSwiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <section class="dark section section-specialiti">
+        <div class="container reverse main">
+          
+          <h2 class="title-section title">Specialities</h2>
+  
+          <article class="content">
+            <h2 class="title-font line title-secondary">Chocolate pancakes</h2>
+            <h3 class="title-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+              velit maximus, molestie est a, tempor magna.
+            </h3>
+            <p class="text">
+              Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+              posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper
+              feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem.
+              Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis
+              semper laoreet.
+            </p>
+          </article>
+          <div class="article-img article-img-reverse">
+            <picture class="picture">
+              <source srcset="img/section-specialiti.webp" type="image/webp" />
+              <source srcset="img/section-specialiti.jpg" type="image/jpeg" />
+              <img
+                width="1"
+                height="1"
+                loading="lazy"
+                class="content-img"
+                src="img/section-specialiti.jpg"
+                alt="About us"
+              />
+            </picture>
+          </div>
+          
+        </div>
+      </section>
+    </div>
+    <div class="swiper-slide">
+      <section class="dark section section-team">
+        <div class="container reverse main">
+          <h2 class="title-section title">Our team</h2>
+  
+          <article class="content">
+            <h3 class="title-font line title-secondary">Master chef</h3>
+            <h4 class="title-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+              velit max++t a, tempor magna.
+            </h4>
+            <p class="text">
+              Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+              posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper
+              feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem.
+              Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis
+              semper laoreet.
+            </p>
+          </article>
+          <div class="article-img article-img-reverse">
+            <picture class="picture">
+              <source srcset="img/team.webp" type="image/webp" />
+              <source srcset="img/team.jpg" type="image/jpeg" />
+              <img
+                width="1"
+                height="1"
+                loading="lazy"
+                class="content-img"
+                src="img/team.jpg"
+                alt="About us"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="swiper-slide">
+      <section
+      class="dark section section-specialiti section-events"
+      
+    >
+      <div class="container main main-events">
+        <h2 class="title-section title">Private events</h2>
+        <div class="article-img article-img-reverse article-img-decorated">
           <picture class="picture">
-            <source srcset="img/section-specialiti.webp" type="image/webp" />
-            <source srcset="img/section-specialiti.jpg" type="image/jpeg" />
+            <source srcset="img/event-1.webp" type="image/webp" />
+            <source srcset="img/event-1.jpg" type="image/jpeg" />
             <img
               width="1"
               height="1"
               loading="lazy"
-              class="content-img"
-              src="img/section-specialiti.jpg"
+              class="content-img details"
+              src="img/event-1.jpg"
               alt="About us"
             />
           </picture>
+          <div class="decoration">
+            <h3 class="title-decoration">Weddings</h3>
+          </div>
         </div>
+        <div class="article-img article-img-decorated">
+          <picture class="picture">
+            <source srcset="img/event-2.webp" type="image/webp" />
+            <source srcset="img/event-2.jpg" type="image/jpeg" />
+            <img
+              width="1"
+              height="1"
+              loading="lazy"
+              class="content-img details"
+              src="img/event-2.jpg"
+              alt="About us"
+            />
+          </picture>
+          <div class="decoration decoration-reverse">
+            <h3 class="title-decoration title-decoration-reverse">
+              Corporate pzrties
+            </h3>
+          </div>
+        </div>
+        <h2 class="contact-title">
+          For private events please call:
+          <span><a href="tel:+40 729 131 637"
+              >+40 729 131 637/</a>
+              <a href="tel:+40 726 458 782"
+              >+40 726 458 782</a>
+              </span>
+          or use the contact form.
+        </h2>
       </div>
     </section>
+    </div>
+
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination section-swiper-pagination"></div>
+
+  </div>
+    
+    
     <section class="light section" id="ourMenu">
       <div class="container main main-menu">
         <h2 class="title-font line title-secondary">Delicious menu</h2>
@@ -614,6 +722,18 @@
       
     }
   }
+      });
+      var swiper = new Swiper(".myNewSwiper", {
+        spaceBetween: 30,
+        effect: "fade",
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
       });
     </script>
   </body>

@@ -670,6 +670,12 @@ button {
   right: initial;
 }
 
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background: hsl(0, 0%, 100%);
+}
+
 /*===========DARK-TEAM SECTION STYLES END============*/
 
 /*===========BOOK-FORM SECTION STYLES START============*/
