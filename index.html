@@ -18,7 +18,10 @@
       integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <title>Hungry people restourant</title>
   </head>
   <body>
@@ -64,13 +67,13 @@
             </button>
             <script>
               burgerBtn.onclick = () => {
-                document.body.classList.toggle('burger-open')
-              }
-                menu.onclick = event => {
-                if (event.target.closest('a')) {
-                  document.body.classList.toggle('burger-open')
+                document.body.classList.toggle("burger-open");
+              };
+              menu.onclick = (event) => {
+                if (event.target.closest("a")) {
+                  document.body.classList.toggle("burger-open");
                 }
-              }
+              };
             </script>
           </div>
         </nav>
@@ -92,10 +95,7 @@
             <button href="#" class="btn btn-secondary">Explore</button>
           </div>
           <div class="arrow">
-            <a
-              class="fas fa-angle-down hero-arrow"
-              href="#aboutUs"
-            ></a>
+            <a class="fas fa-angle-down hero-arrow" href="#aboutUs"></a>
           </div>
         </div>
         <ul class="social">
@@ -258,15 +258,17 @@
         </div>
       </div>
     </section>
-    <!-- Slider main container -->
+    
+
+    <section class="dark  ">
+      <!-- Slider main container -->
 <div class="swiper-container myNewSwiper">
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
     <div class="swiper-slide">
-      <section class="dark section section-specialiti">
+      <div class="section-specialiti section">
         <div class="container reverse main">
-          
           <h2 class="title-section title">Specialities</h2>
   
           <article class="content">
@@ -297,21 +299,20 @@
               />
             </picture>
           </div>
-          
         </div>
-      </section>
+      </div>
     </div>
     <div class="swiper-slide">
-      <section class="dark section section-team">
+      <div class="section-specialiti section">
         <div class="container reverse main">
-          <h2 class="title-section title">Our team</h2>
+          <h2 class="title-section title">Specialities</h2>
   
           <article class="content">
-            <h3 class="title-font line title-secondary">Master chef</h3>
-            <h4 class="title-text">
+            <h2 class="title-font line title-secondary">Chocolate pancakes</h2>
+            <h3 class="title-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
-              velit max++t a, tempor magna.
-            </h4>
+              velit maximus, molestie est a, tempor magna.
+            </h3>
             <p class="text">
               Integer ullamcorper neque eu purus euismod, ac faucibus mauris
               posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper
@@ -322,84 +323,70 @@
           </article>
           <div class="article-img article-img-reverse">
             <picture class="picture">
-              <source srcset="img/team.webp" type="image/webp" />
-              <source srcset="img/team.jpg" type="image/jpeg" />
+              <source srcset="img/section-specialiti.webp" type="image/webp" />
+              <source srcset="img/section-specialiti.jpg" type="image/jpeg" />
               <img
                 width="1"
                 height="1"
                 loading="lazy"
                 class="content-img"
-                src="img/team.jpg"
+                src="img/section-specialiti.jpg"
                 alt="About us"
               />
             </picture>
           </div>
         </div>
-      </section>
+      </div>
     </div>
     <div class="swiper-slide">
-      <section
-      class="dark section section-specialiti section-events"
-      
-    >
-      <div class="container main main-events">
-        <h2 class="title-section title">Private events</h2>
-        <div class="article-img article-img-reverse article-img-decorated">
-          <picture class="picture">
-            <source srcset="img/event-1.webp" type="image/webp" />
-            <source srcset="img/event-1.jpg" type="image/jpeg" />
-            <img
-              width="1"
-              height="1"
-              loading="lazy"
-              class="content-img details"
-              src="img/event-1.jpg"
-              alt="About us"
-            />
-          </picture>
-          <div class="decoration">
-            <h3 class="title-decoration">Weddings</h3>
-          </div>
-        </div>
-        <div class="article-img article-img-decorated">
-          <picture class="picture">
-            <source srcset="img/event-2.webp" type="image/webp" />
-            <source srcset="img/event-2.jpg" type="image/jpeg" />
-            <img
-              width="1"
-              height="1"
-              loading="lazy"
-              class="content-img details"
-              src="img/event-2.jpg"
-              alt="About us"
-            />
-          </picture>
-          <div class="decoration decoration-reverse">
-            <h3 class="title-decoration title-decoration-reverse">
-              Corporate pzrties
+      <div class="section-specialiti section">
+        <div class="container reverse main">
+          <h2 class="title-section title">Specialities</h2>
+  
+          <article class="content">
+            <h2 class="title-font line title-secondary">Chocolate pancakes</h2>
+            <h3 class="title-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+              velit maximus, molestie est a, tempor magna.
             </h3>
+            <p class="text">
+              Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+              posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper
+              feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem.
+              Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis
+              semper laoreet.
+            </p>
+          </article>
+          <div class="article-img article-img-reverse">
+            <picture class="picture">
+              <source srcset="img/section-specialiti.webp" type="image/webp" />
+              <source srcset="img/section-specialiti.jpg" type="image/jpeg" />
+              <img
+                width="1"
+                height="1"
+                loading="lazy"
+                class="content-img"
+                src="img/section-specialiti.jpg"
+                alt="About us"
+              />
+            </picture>
           </div>
         </div>
-        <h2 class="contact-title">
-          For private events please call:
-          <span><a href="tel:+40 729 131 637"
-              >+40 729 131 637/</a>
-              <a href="tel:+40 726 458 782"
-              >+40 726 458 782</a>
-              </span>
-          or use the contact form.
-        </h2>
       </div>
-    </section>
     </div>
 
   </div>
   <!-- If we need pagination -->
-  <div class="swiper-pagination section-swiper-pagination"></div>
+  <div class="swiper-pagination"></div>
 
-  </div>
-    
-    
+  
+
+  
+</div>
+
+      
+    </section>
+
     <section class="light section" id="ourMenu">
       <div class="container main main-menu">
         <h2 class="title-font line title-secondary">Delicious menu</h2>
@@ -548,79 +535,83 @@
         </div>
         <h2 class="contact-title">
           For private events please call:
-          <span><a href="tel:+40 729 131 637"
-              >+40 729 131 637/</a>
-              <a href="tel:+40 726 458 782"
-              >+40 726 458 782</a>
-              </span>
+          <span
+            ><a href="tel:+40 729 131 637">+40 729 131 637/</a>
+            <a href="tel:+40 726 458 782">+40 726 458 782</a>
+          </span>
           or use the contact form.
         </h2>
       </div>
     </section>
     <section class="gallery-slider-section" id="ourGallary">
+      <div class="container-slide">
+        <div class="swiper-container mySwiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <picture class="picture event-picture">
+                <source srcset="img/gallery1.webp" type="image/webp" />
+                <source srcset="img/gallery1.jpg" type="image/jpeg" />
+                <img
+                  width="1"
+                  height="1"
+                  loading="lazy"
+                  class="event-img details"
+                  src="img/gallery1.jpg"
+                  alt="About us"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture class="picture event-picture">
+                <source srcset="img/gallery2.webp" type="image/webp" />
+                <source srcset="img/gallery2.jpg" type="image/jpeg" />
+                <img
+                  width="1"
+                  height="1"
+                  loading="lazy"
+                  class="event-img details"
+                  src="img/gallery2.jpg"
+                  alt="About us"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture class="picture event-picture">
+                <source srcset="img/gallery3.webp" type="image/webp" />
+                <source srcset="img/gallery3.jpg" type="image/jpeg" />
+                <img
+                  width="1"
+                  height="1"
+                  loading="lazy"
+                  class="event-img details"
+                  src="img/gallery3.jpg"
+                  alt="About us"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture class="picture event-picture">
+                <source srcset="img/gallery4.webp" type="image/webp" />
+                <source srcset="img/gallery14.jpg" type="image/jpeg" />
+                <img
+                  width="1"
+                  height="1"
+                  loading="lazy"
+                  class="event-img details"
+                  src="img/gallery4.jpg"
+                  alt="About us"
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-button-next ghcf"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
       <!-- Slider main container -->
-<div class="swiper-container mySwiper">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide">
-      <picture class="picture event-picture">
-      <source srcset="img/gallery1.webp" type="image/webp" />
-      <source srcset="img/gallery1.jpg" type="image/jpeg" />
-      <img
-        width="1"
-        height="1"
-        loading="lazy"
-        class="event-img details"
-        src="img/gallery1.jpg"
-        alt="About us"
-      />
-    </picture></div>
-    <div class="swiper-slide"> 
-      <picture class="picture event-picture">
-      <source srcset="img/gallery2.webp" type="image/webp" />
-      <source srcset="img/gallery2.jpg" type="image/jpeg" />
-      <img
-        width="1"
-        height="1"
-        loading="lazy"
-        class="event-img details"
-        src="img/gallery2.jpg"
-        alt="About us"
-      />
-    </picture></div>
-    <div class="swiper-slide"> 
-      <picture class="picture event-picture">
-      <source srcset="img/gallery3.webp" type="image/webp" />
-      <source srcset="img/gallery3.jpg" type="image/jpeg" />
-      <img
-        width="1"
-        height="1"
-        loading="lazy"
-        class="event-img details"
-        src="img/gallery3.jpg"
-        alt="About us"
-      />
-    </picture></div>
-    <div class="swiper-slide"> 
-      <picture class="picture event-picture">
-        <source srcset="img/gallery4.webp" type="image/webp" />
-        <source srcset="img/gallery14.jpg" type="image/jpeg" />
-        <img
-          width="1"
-          height="1"
-          loading="lazy"
-          class="event-img details"
-          src="img/gallery4.jpg"
-          alt="About us"
-        />
-      </picture></div>
       
-  </div>
-  <div class="swiper-button-next ghcf"></div>
-      <div class="swiper-button-prev"></div>
-</div>
-
     </section>
     <section class="light section" id="ourContacts">
       <div class="container main main-menu">
@@ -637,9 +628,11 @@
           <div class="contacts">
             <ul class="our-contacts">
               <li>
-                <a href="https://www.google.com/maps/search/London+Boulevard/@57.6993643,11.975369,16z/data=!3m1!4b1?hl=ru"
+                <a
+                  href="https://www.google.com/maps/search/London+Boulevard/@57.6993643,11.975369,16z/data=!3m1!4b1?hl=ru"
                   target="_blank"
-                  rel="noopener noreferrer nofollow">
+                  rel="noopener noreferrer nofollow"
+                >
                   <i class="fas fa-map-marker-alt"></i> 5th London Boulevard,
                   U.K.
                 </a>
@@ -648,9 +641,7 @@
                 <a href="tel:+40 729 131 637">
                   <i class="fas fa-phone"></i> +40 729 131 637/
                 </a>
-                <a href="tel:+40 726 458 782">
-                  +40 726 458 782
-                </a>
+                <a href="tel:+40 726 458 782"> +40 726 458 782 </a>
               </li>
               <li class="message">
                 <a href="mailto:office@mindblister.com">
@@ -677,17 +668,14 @@
       ></iframe>
     </section>
     <footer class="footer">
-      <a href="#"> © Copyright Mindblister  <span id="copyYear">2019</span>
-
-      </a>
+      <a href="#"> © Copyright Mindblister <span id="copyYear">2019</span> </a>
       <script>
-        copyYear.textContent = new Date().getFullYear()
+        copyYear.textContent = new Date().getFullYear();
       </script>
     </footer>
-    
+
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-      
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 4,
         loop: true,
@@ -696,40 +684,30 @@
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
-      
-    
+
         breakpoints: {
-    // when window width is >= 320px
-    320: {
-      slidesPerView: 1,
-    
-    },
-    // when window width is >= 576px
-    576: {
-      slidesPerView: 3,
-     
-    },
-    // when window width is >= 768px
-    768: {
-      slidesPerView: 3,
-    },
-    992: {
-      slidesPerView: 3,
-      
-    },
-    1200: {
-      slidesPerView: 4,
-      
-    }
-  }
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 576px
+          576: {
+            slidesPerView: 2,
+          },
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 3,
+          },
+         
+          1200: {
+            slidesPerView: 4,
+          },
+        },
       });
       var swiper = new Swiper(".myNewSwiper", {
         spaceBetween: 30,
-        effect: "fade",
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
+       
+
         pagination: {
           el: ".swiper-pagination",
           clickable: true,

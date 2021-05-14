@@ -670,11 +670,7 @@ button {
   right: initial;
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
-  width: 15px;
-  height: 15px;
-  background: hsl(0, 0%, 100%);
-}
+
 
 /*===========DARK-TEAM SECTION STYLES END============*/
 
@@ -711,6 +707,11 @@ textarea {
 .no-webp .section-specialiti {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../img/special-bg.jpg) no-repeat 50% / cover;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background: hsl(0, 0%, 100%);
 }
 
 /*===========BOOK-FORM SECTION STYLES END============*/
