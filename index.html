@@ -705,12 +705,42 @@
         },
       });
       var swiper = new Swiper(".myNewSwiper", {
-        spaceBetween: 30,
-       
-
+        spaceBetween: 0,
+        speed: 800,
+        effect: "cube",
+        grabCursor: true,
+        cubeEffect: {
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        },
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
+        },
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            
+          },
+          // when window width is >= 576px
+          576: {
+            
+          },
+          // when window width is >= 768px
+          768: {
+            cubeEffect: {
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        },
+          },
+         
+          1200: {
+            
+          },
         },
       });
     </script>
