@@ -842,13 +842,7 @@ textarea {
   transition: ease 0.5s;
 }
 
-.gallery-slider {
-  display: flex;
-  flex-wrap: nowrap;
-}
-.gallery-slider-section .swiper-button-next, .gallery-slider-section .swiper-button-prev{
-color: var(--color);
-}
+
 
 
 

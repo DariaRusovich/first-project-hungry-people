@@ -1,0 +1,24 @@
+.section-specialiti-container{
+    position: relative;
+}
+.section-specialiti-container .swiper{
+    overflow: hidden;
+}
+.section-specialiti-container .swiper-pagination{
+    top: calc(100% - 50px);
+}
+
+.section-specialiti-container .swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+    background: #fff;
+}
+.gallery-slider-section .swiper-button-next, .gallery-slider-section .swiper-button-prev{
+    color: var(--color);
+    }
+
+.gallery-slider {
+        display: flex;
+        flex-wrap: nowrap;
+      }
+     
